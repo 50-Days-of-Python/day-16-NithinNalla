@@ -1,7 +1,6 @@
 def sum_list(l):
-  s = 0
-  
-  # Write your logic here
-  
-  return s
+  a=[]
+  for i in l:
+      a.extend(i)
+  return(sum(a))
 
